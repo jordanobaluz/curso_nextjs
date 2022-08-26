@@ -1,0 +1,10 @@
+.tabuleiro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 50vh;
+    background-color: dimgrey;
+    padding: 50vh 50vw;
+}

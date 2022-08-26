@@ -1,0 +1,14 @@
+.subdivisao{
+    width: 4vw;
+    height: 6vh;
+    background-color: crimson;
+}
+
+
+@media only screen and (max-width: 600px){
+    .subdivisao{
+        width: 6vw;
+        height: 4vh;
+        background-color: crimson;
+    }
+}
