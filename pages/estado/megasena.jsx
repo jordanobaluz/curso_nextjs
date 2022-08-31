@@ -32,7 +32,9 @@ export default function Megasena() {
                 {renderNumeros()}
             </div>
             <div>
-                <input type="number" min={6} max={20} value={qtd} onChange={e => setQtd(e.target.value)} />
+                <input type="number" min={6} max={20}
+                    value={qtd}
+                    onChange={e => setQtd(e.target.value)} />
                 <button onClick={() => setNumeros(mega(qtd))}>Gerar Numeros</button>
             </div>
         </div >
