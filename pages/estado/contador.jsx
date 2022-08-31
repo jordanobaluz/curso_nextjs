@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function contador() {
+export default function Contador() {
     const estilo = {
         display: "flex",
         flexDirection: "column",
