@@ -2,7 +2,7 @@ export function mega(quantidade = 6, numeros = []){
     //transforma em numero o parametro que foi recebido como string
     let qtd = +quantidade
 
-    if(qtd < 6 && qtd > 60){
+    if(qtd < 6 || qtd > 60){
         throw "Quantidade inválida!"
     }
 
