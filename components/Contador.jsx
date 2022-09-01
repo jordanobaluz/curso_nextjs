@@ -10,14 +10,14 @@ export default class Contador extends Component {
     //cria a função
     increment = () => {
         this.setState({
-            numero: this.state.numero + this.props.passo
+            numero: this.state.numero + this.state.passo
         })
     }
     //setState permite alterar o estado do componente
 
     decrement = () => {
         this.setState({
-            numero: this.state.numero - this.props.passo
+            numero: this.state.numero - this.state.passo
         })
     }
 
